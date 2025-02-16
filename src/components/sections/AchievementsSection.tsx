@@ -1,4 +1,3 @@
-
 interface Achievement {
   name: string;
   description: string;
@@ -6,31 +5,32 @@ interface Achievement {
 
 const hackathons: Achievement[] = [
   {
-    name: "Innovation Challenge Winner",
-    description: "First place in national hackathon for innovative solution..."
+    name: "CodeYatra Hackathon 2025",
+    description: "Developed an innovative solution addressing real-world challenges in a competitive 36-hour hackathon."
+  },
+
+  {
+    name: "KEC HackFest 2024",
+    description: "Built a volunteer recruitment platform using HTML5, CSS, JavaScript, and deployed it on Vercel."
   },
   {
-    name: "Tech for Good Hackathon",
-    description: "Developed sustainable technology solutions for social impact..."
-  },
-  {
-    name: "Code Sprint Champion",
-    description: "Built and deployed a full-stack application in 24 hours..."
+    name: "KIST HackFest 2024",
+    description: "Developed a web app for local farmers to sell fresh produce with verification features and easy product addition."
   }
 ];
 
 const achievements: Achievement[] = [
   {
-    name: "Technical Excellence",
-    description: "Recognized for outstanding contributions in technology innovation..."
+    name: "Google UI/UX Design Certificate",
+    description: "Completed professional certification in UI/UX Design from Google."
   },
   {
-    name: "Community Impact",
-    description: "Led successful tech community initiatives and workshops..."
+    name: "Google Cybersecurity Certificate",
+    description: "Earned cybersecurity certification from Google, covering security architecture, penetration testing, and risk assessment."
   },
   {
-    name: "Academic Honors",
-    description: "Achieved top honors in computer science and engineering..."
+    name: "TEDxBaneshwor Volunteer",
+    description: "Contributed to event outreach, content creation, and promotion for TEDxBaneshwor 2024."
   }
 ];
 

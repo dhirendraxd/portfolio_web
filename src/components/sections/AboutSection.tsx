@@ -1,52 +1,56 @@
-
 import { FileText, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const skillCategories = {
   'Web Development': [
+    'HTML5',
+    'CSS3',
+    'JavaScript',
     'React.js',
-    'TypeScript',
-    'Node.js',
-    'Next.js',
     'Tailwind CSS',
-    'RESTful APIs'
+    'Supabase',
   ],
   'Security': [
+    'Cybersecurity Fundamentals',
     'Security Architecture',
-    'Penetration Testing',
     'OAuth/OIDC',
-    'DevSecOps'
+    
   ],
   'Cloud & DevOps': [
-    'AWS Services',
-    'Docker',
+    'Git & GitHub',
     'CI/CD Pipelines',
     'Infrastructure as Code'
   ],
   'Backend': [
-    'Database Design',
+    'Python',
+    'Java',
     'API Development',
-    'System Design',
-    'Microservices'
+    
+    'System Design'
+  ],
+  'Digital Marketing': [
+    'SEO',
+    'Social Media Management',
+    'Email Marketing'
   ]
 };
 
 const certifications = [
   {
-    name: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    year: "2023"
+    name: "Google UI/UX Design Professional Certificate",
+    issuer: "Google",
+    year: "2024"
   },
   {
-    name: "Certified Kubernetes Administrator",
-    issuer: "Cloud Native Computing Foundation",
-    year: "2023"
+    name: "Google Digital Marketing & E-Commerce Professional Certificate",
+    issuer: "Google",
+    year: "2024"
   },
   {
-    name: "Professional Cloud Developer",
-    issuer: "Google Cloud",
-    year: "2022"
-  }
+    name: "Google Cybersecurity Professional Certificate",
+    issuer: "Google",
+    year: "2024"
+  } 
 ];
 
 export const AboutSection = () => {
@@ -60,8 +64,7 @@ export const AboutSection = () => {
               <div className="card backdrop-blur-sm bg-slate-800/30">
                 <h3 className="text-2xl font-bold mb-4">Background</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  A passionate technologist with expertise in building secure and scalable digital solutions. 
-                  I combine technical knowledge with creative problem-solving to deliver exceptional results.
+                I'm Dhirendra Singh Dhami, a cybersecurity enthusiast focused on securing digital environments and driving innovative solutions. With a strong foundation in web development, cybersecurity, and cloud technologies, I’m always evolving in the tech space!.
                 </p>
               </div>
             </div>
