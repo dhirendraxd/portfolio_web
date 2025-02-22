@@ -40,7 +40,7 @@ const Resume = () => {
             <section className="card">
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Professional Summary</h2>
               <p className="text-gray-300 leading-relaxed">
-                Passionate about Web Development ,Cybersecurity, and digital marketing, with experience in hackathons, community engagement, and technical leadership. Adept at problem-solving, collaboration, and building user-centered solutions.
+                Passionate about Web Development, Cybersecurity, and digital marketing, with experience in hackathons, community engagement, and technical leadership. Adept at problem-solving, collaboration, and building user-centered solutions.
               </p>
             </section>
             
