@@ -74,15 +74,15 @@ const Resume = () => {
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Education & Certifications</h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Master's in Computer Science</h3>
-                  <p className="text-gray-400">University Name • 2018</p>
+                  <h3 className="text-xl font-bold mb-2">Bachelor's in Information Management</h3>
+                  <p className="text-gray-400">KIST College & SS • 2027</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Professional Certifications</h3>
                   <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li>Advanced System Architecture</li>
-                    <li>Cloud Platform Professional</li>
-                    <li>Enterprise Security Specialist</li>
+                    <li>Google Cybersecurity Professional Certificate </li>
+                    <li>Google Digital Marketing & E-Commerce Professional Certificate </li>
+                    {/* <li>Enterprise Security Specialist</li> */}
                   </ul>
                 </div>
               </div>
