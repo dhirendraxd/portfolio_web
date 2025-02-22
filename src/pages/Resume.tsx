@@ -27,7 +27,7 @@ const Resume = () => {
               <a 
                 href="/resume.pdf" 
                 className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400"
-                download="My_Resume.pdf"
+                download="Dhirendra_Singh_Dhami_Resume.pdf"
               >
                 <Download className="mr-2" size={20} />
                 Download CV
@@ -40,9 +40,7 @@ const Resume = () => {
             <section className="card">
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Professional Summary</h2>
               <p className="text-gray-300 leading-relaxed">
-                Experienced technologist with a proven track record in designing and implementing 
-                innovative solutions. Specialized in creating secure, scalable applications and 
-                leading technical initiatives that drive business growth.
+                Passionate about UI/UX, cybersecurity, and digital marketing, with experience in hackathons, community engagement, and technical leadership. Adept at problem-solving, collaboration, and building user-centered solutions.
               </p>
             </section>
             
@@ -50,21 +48,19 @@ const Resume = () => {
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Experience</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Senior Technical Lead</h3>
-                  <p className="text-gray-400 mb-2">Company Name • 2020 - Present</p>
+                  <h3 className="text-xl font-bold mb-2">Volunteer - TEDxBaneshwor</h3>
+                  <p className="text-gray-400 mb-2">December 2024</p>
                   <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li>Led development of enterprise-scale applications</li>
-                    <li>Architected cloud-native solutions</li>
-                    <li>Mentored junior developers and established best practices</li>
+                    <li>Handled outreach, content creation, and event promotion</li>
+                    <li>Coordinated event logistics and assisted with on-site operations</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Technical Architect</h3>
-                  <p className="text-gray-400 mb-2">Previous Company • 2018 - 2020</p>
+                  <h3 className="text-xl font-bold mb-2">Hackathon Participant</h3>
+                  <p className="text-gray-400 mb-2">Various Events (2023 - 2025)</p>
                   <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li>Designed and implemented scalable system architectures</li>
-                    <li>Led technical strategy for major projects</li>
-                    <li>Improved system security and performance</li>
+                    <li>Developed innovative web applications for social impact</li>
+                    <li>Led teams in designing and deploying scalable solutions</li>
                   </ul>
                 </div>
               </div>
@@ -75,14 +71,15 @@ const Resume = () => {
               <div className="space-y-4">
                 <div>
                   <h3 className="text-xl font-bold mb-2">Bachelor's in Information Management</h3>
-                  <p className="text-gray-400">KIST College & SS • 2027</p>
+                  <p className="text-gray-400">KIST College & SS • 2023 - Present</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Professional Certifications</h3>
                   <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li>Google Cybersecurity Professional Certificate </li>
-                    <li>Google Digital Marketing & E-Commerce Professional Certificate </li>
-                    {/* <li>Enterprise Security Specialist</li> */}
+                    <li>Google Cybersecurity Professional Certificate</li>
+                    <li>Google Digital Marketing & E-Commerce Professional Certificate</li>
+                    <li>Google UI/UX Design Professional Certificate</li>
+                    <li>NFRS for SMEs - Mero Job</li>
                   </ul>
                 </div>
               </div>
