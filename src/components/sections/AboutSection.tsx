@@ -8,7 +8,9 @@ const skillCategories = {
     'JavaScript',
     'React.js',
     'Tailwind CSS',
-    'Supabase',
+    'Supabase.',
+    // new chnages made to this file s
+    
   ],
   'Security': [
     'Cybersecurity Fundamentals',
