@@ -1,4 +1,3 @@
-
 import { Github, Twitter, Linkedin, Mail, FileText } from 'lucide-react';
 import { useState } from 'react';
 import { useToast } from "@/components/ui/use-toast";
@@ -89,7 +88,7 @@ export const ContactSection = () => {
                 <SocialLink href="https://github.com/dhirendraxd" icon={Github} label="GitHub" />
                 <SocialLink href="https://x.com/dhirendra_jsx" icon={Twitter} label="Twitter" />
                 <SocialLink href="https://www.linkedin.com/in/dhirendrasinghdhami/" icon={Linkedin} label="LinkedIn" />
-                <SocialLink href="dhirendraxd@gmail.com" icon={Mail} label="Email" />
+                <SocialLink href="mailto:dhirendraxd@gmail.com" icon={Mail} label="Email" />
                 <SocialLink href="/resume" icon={FileText} label="Resume" />
               </div>
             </div>

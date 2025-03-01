@@ -4,6 +4,29 @@
   padding: 2rem;
   text-align: center;
 }
+/* Add this to your global CSS file */
+@media (max-width: 768px) {
+  .grid.md\:grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-links a {
+    margin-bottom: 1rem;
+  }
+}
 
 .logo {
   height: 6em;
@@ -33,9 +56,9 @@
   }
 }
 
-.card {
+/* .card {
   padding: 2em;
-}
+} */
 
 .read-the-docs {
   color: #888;

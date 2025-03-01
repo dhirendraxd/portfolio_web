@@ -8,7 +8,6 @@ const hackathons: Achievement[] = [
     name: "CodeYatra Hackathon 2025",
     description: "Developed an innovative solution addressing real-world challenges in a competitive 36-hour hackathon."
   },
-
   {
     name: "KEC HackFest 2024",
     description: "Built a volunteer recruitment platform using HTML5, CSS, JavaScript, and deployed it on Vercel."

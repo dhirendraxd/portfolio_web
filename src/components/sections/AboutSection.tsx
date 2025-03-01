@@ -8,15 +8,12 @@ const skillCategories = {
     'JavaScript',
     'React.js',
     'Tailwind CSS',
-    'Supabase.',
-    // new chnages made to this file s
-    
+    'Supabase',
   ],
   'Security': [
     'Cybersecurity Fundamentals',
     'Security Architecture',
     'OAuth/OIDC',
-    
   ],
   'Cloud & DevOps': [
     'Git & GitHub',
@@ -27,7 +24,6 @@ const skillCategories = {
     'Python',
     'Java',
     'API Development',
-    
     'System Design'
   ],
   'Digital Marketing': [
