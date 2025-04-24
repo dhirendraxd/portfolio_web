@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail, FileText } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
 import { useState } from 'react';
 import { useToast } from "@/components/ui/use-toast";
 import {
@@ -21,12 +21,13 @@ const SocialLink = ({ href, icon: Icon, label }: SocialLinkProps) => (
       <TooltipTrigger asChild>
         <a
           href={href}
-          className="hover-glow p-4 bg-slate-800/50 rounded-lg transition-all duration-300 hover:bg-slate-700/50"
+          className="hover-glow aspect-square w-full h-full bg-slate-800/50 rounded-lg transition-all duration-300 hover:bg-slate-700/50 flex flex-col items-center justify-center"
           target="_blank"
           rel="noopener noreferrer"
           aria-label={label}
         >
-          <Icon size={24} />
+          <Icon size={28} />
+          <span className="mt-1 text-xs text-gray-300 text-center">{label}</span>
         </a>
       </TooltipTrigger>
       <TooltipContent>
@@ -75,7 +76,7 @@ export const ContactSection = () => {
     <section id="contact" className="section-padding opacity-0">
       <div className="container mx-auto">
         <h2 className="section-title text-center mb-16">Get in Touch</h2>
-        
+
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
             {/* Social Links */}
@@ -84,12 +85,15 @@ export const ContactSection = () => {
               <p className="text-center mb-8 text-gray-300">
                 Feel free to reach out through any of these platforms.
               </p>
-              <div className="flex justify-center gap-6">
-                <SocialLink href="https://github.com/dhirendraxd" icon={Github} label="GitHub" />
-                <SocialLink href="https://x.com/dhirendra_jsx" icon={Twitter} label="Twitter" />
-                <SocialLink href="https://www.linkedin.com/in/dhirendrasinghdhami/" icon={Linkedin} label="LinkedIn" />
-                <SocialLink href="mailto:dhirendraxd@gmail.com" icon={Mail} label="Email" />
-                <SocialLink href="/resume" icon={FileText} label="Resume" />
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-4 auto-rows-[1fr]">
+                {[
+                  { href: "https://github.com/dhirendraxd", icon: Github, label: "GitHub" },
+                  { href: "https://x.com/dhirendra_jsx", icon: Twitter, label: "Twitter" },
+                  { href: "https://www.linkedin.com/in/dhirendrasinghdhami/", icon: Linkedin, label: "LinkedIn" },
+                  { href: "mailto:dhirendraxd@gmail.com", icon: Mail, label: "Email" },
+                ].map(({ href, icon, label }, index) => (
+                  <SocialLink key={index} href={href} icon={icon} label={label} />
+                ))}
               </div>
             </div>
 
@@ -111,7 +115,7 @@ export const ContactSection = () => {
                     placeholder="Enter your email"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
                     Message
