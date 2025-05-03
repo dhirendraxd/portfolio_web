@@ -1,14 +1,11 @@
-import { ChevronLeft, Download, FileText } from 'lucide-react';
+import { ChevronLeft, Download, FileText, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Resume = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 py-20">
       <div className="container mx-auto px-4">
-        <Link
-          to="/"
-          className="inline-flex items-center text-gray-300 hover:text-blue-400 transition-colors mb-8"
-        >
+        <Link to="/" className="inline-flex items-center text-gray-300 hover:text-blue-400 transition-colors mb-8">
           <ChevronLeft className="mr-2" size={20} />
           Back to Portfolio
         </Link>
@@ -17,18 +14,11 @@ const Resume = () => {
           <div className="flex justify-between items-center mb-8">
             <h1 className="text-4xl font-bold text-white">Resume</h1>
             <div className="flex gap-4">
-              <button
-                onClick={() => window.open('/resume.pdf', '_blank')}
-                className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400"
-              >
+              <button onClick={() => window.open('/resume.pdf', '_blank')} className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400">
                 <FileText className="mr-2" size={20} />
                 View Full CV
               </button>
-              <a
-                href="/resume.pdf"
-                className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400"
-                download="Dhirendra_Singh_Dhami_Resume.pdf"
-              >
+              <a href="/resume.pdf" download="Dhirendra_Singh_Dhami_Resume.pdf" className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400">
                 <Download className="mr-2" size={20} />
                 Download CV
               </a>
@@ -36,69 +26,110 @@ const Resume = () => {
           </div>
 
           <div className="space-y-8">
-            {/* Resume Content */}
+
+            {/* Summary */}
             <section className="card">
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Summary</h2>
               <p className="text-gray-300 leading-relaxed">
-                Passionate about Cybersecurity and Web Development, with experience in hackathons,
-                community engagement, and technical leadership. Adept at problem-solving, collaboration,
-                and building user-centered solutions.
+                Enthusiastic tech explorer with a focus on Cybersecurity, Cloud, and DevOps. Passionate about building community-driven and user-centric digital solutions. Experienced in hackathons, public speaking, and visual storytelling. Currently leading community roles and actively contributing to real-world technical events.
               </p>
             </section>
 
+            {/* Experience */}
             <section className="card">
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Experience</h2>
-              <div className="space-y-6">
+              <div className="space-y-4 text-gray-300">
+
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Campus Representative - AWS Cloud Club Nepal</h3>
-                  <p className="text-gray-400 mb-2">April 2025 - Present</p>
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li>Represented AWS Cloud Club Nepal in academic and tech communities</li>
-                    <li>Organized and promoted cloud-related events and workshops</li>
-                    <li>Engaged in AWS Skill Builder and certification journey (Cloud Practitioner)</li>
+                  <h3 className="text-xl font-semibold">Social Media Manager</h3>
+                  <p className="text-gray-400">Robotics Association of Nepal – Yantra 10.0 • Apr 2025 – Present</p>
+                  <ul className="list-disc list-inside mt-2 space-y-1">
+                    <li>Handling social media content for Yantra 10.0, Nepal’s biggest tech festival.</li>
+                    <li>Designing posts, managing engagement, and contributing to community growth.</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Social Media Manager - Robotics Association of Nepal (Yantra 10.0)</h3>
-                  <p className="text-gray-400 mb-2">May 2025 - Present</p>
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li>Managed social media content and strategy for Yantra 10.0</li>
-                    <li>Created engaging posts, event updates, and community engagement campaigns</li>
-                    <li>Collaborated with technical and creative teams to promote robotics awareness</li>
+                  <h3 className="text-xl font-semibold">Campus Representative</h3>
+                  <p className="text-gray-400">AWS Cloud Club Nepal • Mar 2025 – Present</p>
+                  <ul className="list-disc list-inside mt-2 space-y-1">
+                    <li>Promoting AWS resources in college and organizing cloud-related events.</li>
+                    <li>Actively participating in AWS training and student community building.</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Volunteer - Nepal International Film Festival (NIFF)</h3>
-                  <p className="text-gray-400 mb-2">March 2025</p>
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li>Managed hospitality and guest coordination for an international audience</li>
-                    <li>Strengthened communication and event handling skills</li>
+                  <h3 className="text-xl font-semibold">Volunteer – Hospitality & Guest Handling</h3>
+                  <p className="text-gray-400">Nepal International Film Festival (NIFF) • Mar 2024</p>
+                  <ul className="list-disc list-inside mt-2 space-y-1">
+                    <li>Assisted in coordinating guests, managing sessions, and ensuring smooth event flow.</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Participant - PublicBodies Datathon 2025</h3>
-                  <p className="text-gray-400 mb-2">January 2025</p>
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li>Explored and validated public sector datasets to promote transparency</li>
-                    <li>Collaborated with a team to solve civic tech challenges using data</li>
+                  <h3 className="text-xl font-semibold">Volunteer – Technical & Logistics</h3>
+                  <p className="text-gray-400">KIST HackFest 2024 • Jun 2024</p>
+                  <ul className="list-disc list-inside mt-2 space-y-1">
+                    <li>Helped set up tech infrastructure, managed registrations, and supported teams during hackathon.</li>
                   </ul>
                 </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold">TEDxBaneshwor Volunteer</h3>
+                  <p className="text-gray-400">TEDx Event • 2023</p>
+                  <ul className="list-disc list-inside mt-2 space-y-1">
+                    <li>Assisted in logistics and guest experience for the independently organized TEDx event.</li>
+                  </ul>
+                </div>
+
               </div>
             </section>
 
+
+            {/* Projects */}
             <section className="card">
-              <h2 className="text-2xl font-bold mb-4 text-blue-300">Technical Skills</h2>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>Languages: Python, Java, JavaScript, HTML5, CSS3</li>
-                <li>Tools: GitHub, VS Code, Adobe Photoshop, Lightroom</li>
-                <li>Cloud & DevOps: AWS (Cloud Practitioner in progress), Vercel</li>
-                <li>Marketing: SEO, Content Marketing, Email Marketing, Google Analytics</li>
+              <h2 className="text-2xl font-bold mb-4 text-blue-300">Projects</h2>
+              <ul className="list-disc list-inside text-gray-300 space-y-4">
+                <li>
+                  <strong>DevBus</strong> – AI-powered tool for job readiness. Built with React, Supabase, OpenAI API.
+                  <a href="https://github.com/dhirendraxd/Codeyatra-Hackathon.git" target="_blank" rel="noopener noreferrer" className="ml-2 text-blue-400 inline-flex items-center hover:underline">
+                    GitHub <ExternalLink size={16} className="ml-1" />
+                  </a>
+                </li>
+                <li>
+                  <strong>VolunteerHub</strong> – A web app to recruit volunteers and manage stipends for events. Used in hackathon.
+                </li>
+                <li>
+                  <strong>FreshMart</strong> – Marketplace for local farmers to sell fresh produce. Solo dev project.
+                </li>
               </ul>
             </section>
 
+            {/* Hackathons */}
+            <section className="card">
+              <h2 className="text-2xl font-bold mb-4 text-blue-300">Hackathons</h2>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>CodeYatra 2025 – AI Job Tool (DevBus)</li>
+                <li>KEC Hack-a-LITE 2024 – Volunteer Management App</li>
+                <li>KIST HackFest 2023 – Solo Project on Farmer Marketplace</li>
+                <li>PublicBodies Datathon 2025 – Data validation for civic tech</li>
+              </ul>
+            </section>
+
+            {/* Skills */}
+            <section className="card">
+              <h2 className="text-2xl font-bold mb-4 text-blue-300">Technical Skills</h2>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>Languages: Python, JavaScript, Java, HTML5, CSS3</li>
+                <li>Frontend: React.js, Tailwind CSS, TypeScript (learning)</li>
+                <li>Backend/Cloud: AWS (EC2, S3), Supabase, Vercel</li>
+                <li>Cybersecurity Tools: Kali Linux, Wireshark, Metasploit</li>
+                <li>Design Tools: Figma, Adobe Photoshop, Lightroom</li>
+                <li>Others: GitHub, Canva, Google Analytics, Notion</li>
+              </ul>
+            </section>
+
+            {/* Education & Certifications */}
             <section className="card">
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Education & Certifications</h2>
               <div className="space-y-4">
@@ -107,16 +138,18 @@ const Resume = () => {
                   <p className="text-gray-400">KIST College & SS • 2023 - Present</p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Professional Certifications</h3>
+                  <h3 className="text-xl font-bold mb-2">Certifications</h3>
                   <ul className="list-disc list-inside text-gray-300 space-y-2">
                     <li>Google Cybersecurity Professional Certificate</li>
-                    <li>Google Digital Marketing & E-Commerce Professional Certificate</li>
-                    <li>Google UI/UX Design Professional Certificate</li>
-                    <li>NFRS for SMEs - Mero Job</li>
+                    <li>Google Digital Marketing & E-Commerce</li>
+                    <li>Google UI/UX Design Certificate</li>
+                    <li>AWS Cloud Practitioner (In Progress)</li>
+                    <li>NFRS for SMEs – MeroJob</li>
                   </ul>
                 </div>
               </div>
             </section>
+
           </div>
         </div>
       </div>

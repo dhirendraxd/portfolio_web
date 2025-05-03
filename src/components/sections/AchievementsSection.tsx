@@ -14,15 +14,15 @@ const hackathons: Achievement[] = [
     name: "CodeYatra Hackathon 2025",
     description: "Developed an innovative solution addressing real-world challenges in a competitive 36-hour hackathon.",
     projectLink: "https://devpost.com/software/devbus#updates",
-    githubLink: "https://github.com/yourusername/codeyatra",
-    linkedinLink: "https://www.linkedin.com/posts/dhirendrasinghdhami_codeyatra2025-hackathonexperience-devbus-activity-7295331728292765699-qHTd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVZbWQBEx6E3nH2U3a7L_HTQb__PZHy0rQ",
+    githubLink: "https://github.com/dhirendraxd/Codeyatra-Hackathon.git",
+    linkedinLink: "https://www.linkedin.com/in/dhirendra-singh-dhami/",
     date: "Feb 9th–11th, 2025"
   },
   {
     name: "KEC HackFest 2024",
     description: "Built a volunteer recruitment platform using HTML5, CSS, JavaScript, and deployed it on Vercel.",
     projectLink: "https://github.com/KEC-Hack-a-LITE/NewBie.git",
-    githubLink: "https://github.com/KEC-Hack-a-LITE/NewBie.git",
+    githubLink: "https://github.com/dhirendraxd",
     linkedinLink: "https://www.linkedin.com/in/dhirendrasinghdhami/",
     date: "Feb 16th–17th, 2024"
   },
@@ -30,7 +30,7 @@ const hackathons: Achievement[] = [
     name: "KIST HackFest 2023",
     description: "Developed a web app for local farmers to sell fresh produce with verification features and easy product addition.",
     projectLink: "https://new-b-hackathon.vercel.app/",
-    githubLink: "https://github.com/yourusername/farmers-market",
+    githubLink: "https://github.com/dhirendraxd",
     linkedinLink: "https://www.linkedin.com/in/dhirendrasinghdhami/",
     date: "Dec 6th–8th, 2023"
   }
@@ -38,14 +38,14 @@ const hackathons: Achievement[] = [
 
 const achievements: Achievement[] = [
   {
-    name: "AWS Cloud Club College Representative",
-    description: "Selected as a CR for AWS Cloud Club Nepal to foster cloud learning and community growth.",
-    date: "March 2025 - Present",
-  },
-  {
     name: "Social Media Manager - Yantra 10.0 by Robotics Association of Nepal",
     description: "Managing and creating engaging social media content for Yantra 10.0, Nepal’s largest robotics festival hosted by RAN.",
     date: "April 2025 – Present",
+  },
+  {
+    name: "AWS Cloud Club College Representative",
+    description: "Selected as a CR for AWS Cloud Club Nepal to foster cloud learning and community growth.",
+    date: "March 2025 - Present",
   },
   {
     name: "Volunteer - Nepal International Film Festival 2025",
