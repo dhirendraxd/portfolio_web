@@ -37,7 +37,6 @@ const hackathons: Achievement[] = [
   }
 ];
 
-
 const achievements: Achievement[] = [
   {
     name: "AWS Cloud Club College Representative ",
@@ -45,16 +44,21 @@ const achievements: Achievement[] = [
     date: "March 2025",
   },
   {
+    name: "Social Media Manager - Yantra 10.0 by Robotics Association of Nepal",
+    description: "Managing and creating engaging social media content for Yantra 10.0, Nepal’s largest robotics festival hosted by RAN.",
+    date: "April 2025 – Present",
+  },
+  {
     name: "Volunteer - Nepal International Film Festival 2025 ",
     description: "Handled guest coordination and hospitality during the Nepal International Film Festival.",
     date: "March 2025",
   },
-  
   {
     name: "Volunteer - TEDxBaneshwor 2nd Edition 2024",
     description: "Completed Google’s cybersecurity training covering networking, Linux, and incident response.",
     date: "Oct 2024",
   }
+  
 ];
 
 export const AchievementsSection = () => {

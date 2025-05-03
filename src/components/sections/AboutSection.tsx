@@ -87,7 +87,7 @@ const skillCategories = {
 const certifications = [
 
   {
-    name: "AWS Cloud Practitioner Essentials ",
+    name: "AWS Knowledge: Cloud Essentials",
     issuer: "Amazon Web Services",
     year: "2025"
   },
