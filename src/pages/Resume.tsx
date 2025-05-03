@@ -40,7 +40,9 @@ const Resume = () => {
             <section className="card">
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Summary</h2>
               <p className="text-gray-300 leading-relaxed">
-                Passionate about  Cybersecurity, and Web Developemnt , with experience in hackathons, community engagement, and technical leadership. Adept at problem-solving, collaboration, and building user-centered solutions.
+                Passionate about Cybersecurity and Web Development, with experience in hackathons,
+                community engagement, and technical leadership. Adept at problem-solving, collaboration,
+                and building user-centered solutions.
               </p>
             </section>
 
@@ -54,6 +56,16 @@ const Resume = () => {
                     <li>Represented AWS Cloud Club Nepal in academic and tech communities</li>
                     <li>Organized and promoted cloud-related events and workshops</li>
                     <li>Engaged in AWS Skill Builder and certification journey (Cloud Practitioner)</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Social Media Manager - Robotics Association of Nepal (Yantra 10.0)</h3>
+                  <p className="text-gray-400 mb-2">May 2025 - Present</p>
+                  <ul className="list-disc list-inside text-gray-300 space-y-2">
+                    <li>Managed social media content and strategy for Yantra 10.0</li>
+                    <li>Created engaging posts, event updates, and community engagement campaigns</li>
+                    <li>Collaborated with technical and creative teams to promote robotics awareness</li>
                   </ul>
                 </div>
 
@@ -74,18 +86,18 @@ const Resume = () => {
                     <li>Collaborated with a team to solve civic tech challenges using data</li>
                   </ul>
                 </div>
-
               </div>
             </section>
+
             <section className="card">
-  <h2 className="text-2xl font-bold mb-4 text-blue-300">Technical Skills</h2>
-  <ul className="list-disc list-inside text-gray-300 space-y-2">
-    <li>Languages: Python, Java, JavaScript, HTML5, CSS3</li>
-    <li>Tools: GitHub, VS Code, Adobe Photoshop, Lightroom</li>
-    <li>Cloud & DevOps: AWS (Cloud Practitioner in progress), Vercel</li>
-    <li>Marketing: SEO, Content Marketing, Email Marketing, Google Analytics</li>
-  </ul>
-</section>
+              <h2 className="text-2xl font-bold mb-4 text-blue-300">Technical Skills</h2>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>Languages: Python, Java, JavaScript, HTML5, CSS3</li>
+                <li>Tools: GitHub, VS Code, Adobe Photoshop, Lightroom</li>
+                <li>Cloud & DevOps: AWS (Cloud Practitioner in progress), Vercel</li>
+                <li>Marketing: SEO, Content Marketing, Email Marketing, Google Analytics</li>
+              </ul>
+            </section>
 
             <section className="card">
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Education & Certifications</h2>
@@ -109,7 +121,6 @@ const Resume = () => {
         </div>
       </div>
     </div>
-    
   );
 };
 
