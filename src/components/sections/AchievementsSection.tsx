@@ -40,7 +40,7 @@ const achievements: Achievement[] = [
   {
     name: "AWS Cloud Club College Representative",
     description: "Selected as a CR for AWS Cloud Club Nepal to foster cloud learning and community growth.",
-    date: "March 2025",
+    date: "March 2025 - Present",
   },
   {
     name: "Social Media Manager - Yantra 10.0 by Robotics Association of Nepal",
