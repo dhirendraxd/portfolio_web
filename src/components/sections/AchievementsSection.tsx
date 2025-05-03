@@ -9,7 +9,6 @@ interface Achievement {
   linkedinLink?: string;
 }
 
-
 const hackathons: Achievement[] = [
   {
     name: "CodeYatra Hackathon 2025",
@@ -17,7 +16,7 @@ const hackathons: Achievement[] = [
     projectLink: "https://devpost.com/software/devbus#updates",
     githubLink: "https://github.com/yourusername/codeyatra",
     linkedinLink: "https://www.linkedin.com/posts/dhirendrasinghdhami_codeyatra2025-hackathonexperience-devbus-activity-7295331728292765699-qHTd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVZbWQBEx6E3nH2U3a7L_HTQb__PZHy0rQ",
-    date: "Feb 9th-11th, 2025"
+    date: "Feb 9th–11th, 2025"
   },
   {
     name: "KEC HackFest 2024",
@@ -25,7 +24,7 @@ const hackathons: Achievement[] = [
     projectLink: "https://github.com/KEC-Hack-a-LITE/NewBie.git",
     githubLink: "https://github.com/KEC-Hack-a-LITE/NewBie.git",
     linkedinLink: "https://www.linkedin.com/in/dhirendrasinghdhami/",
-    date: "February 16th-17th 2024"
+    date: "Feb 16th–17th, 2024"
   },
   {
     name: "KIST HackFest 2023",
@@ -33,13 +32,13 @@ const hackathons: Achievement[] = [
     projectLink: "https://new-b-hackathon.vercel.app/",
     githubLink: "https://github.com/yourusername/farmers-market",
     linkedinLink: "https://www.linkedin.com/in/dhirendrasinghdhami/",
-    date: "December 6th-8th 2023)"
+    date: "Dec 6th–8th, 2023"
   }
 ];
 
 const achievements: Achievement[] = [
   {
-    name: "AWS Cloud Club College Representative ",
+    name: "AWS Cloud Club College Representative",
     description: "Selected as a CR for AWS Cloud Club Nepal to foster cloud learning and community growth.",
     date: "March 2025",
   },
@@ -49,7 +48,7 @@ const achievements: Achievement[] = [
     date: "April 2025 – Present",
   },
   {
-    name: "Volunteer - Nepal International Film Festival 2025 ",
+    name: "Volunteer - Nepal International Film Festival 2025",
     description: "Handled guest coordination and hospitality during the Nepal International Film Festival.",
     date: "March 2025",
   },
@@ -58,13 +57,12 @@ const achievements: Achievement[] = [
     description: "Completed Google’s cybersecurity training covering networking, Linux, and incident response.",
     date: "Oct 2024",
   }
-  
 ];
 
 export const AchievementsSection = () => {
   return (
     <section id="achievements" className="section-padding opacity-0">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <h2 className="section-title">Hackathons & Achievements</h2>
         <div className="grid lg:grid-cols-2 gap-8">
 
@@ -73,46 +71,45 @@ export const AchievementsSection = () => {
             <h3 className="text-2xl font-bold mb-6">Hackathon Projects</h3>
             <div className="space-y-6">
               {hackathons.map((project) => (
-                <div key={project.name} className="relative p-6 glass rounded-lg">
+                <div key={project.name} className="relative p-6 glass rounded-lg break-words">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h4 className="font-bold text-blue-300 mb-1 flex items-center gap-2">
-                        {project.name}
-                        {project.projectLink && (
-                          <a
-                            href={project.projectLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-xs text-white bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded ml-2"
-                          >
-                            View Project
-                          </a>
-                        )}
-                      </h4>
-                      <p className="text-sm text-gray-300">{project.description}</p>
+                      <h4 className="font-bold text-blue-300 mb-1">{project.name}</h4>
+                      <span className="text-xs text-gray-400">{project.date}</span>
+                      <p className="text-sm text-gray-300 mt-1">{project.description}</p>
                     </div>
-                    <div className="flex gap-2 mt-1">
-                      {project.githubLink && (
-                        <a
-                          href={project.githubLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="GitHub"
-                        >
-                          <Github className="w-5 h-5 text-white hover:text-blue-400" />
-                        </a>
-                      )}
-                      {project.linkedinLink && (
-                        <a
-                          href={project.linkedinLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="LinkedIn"
-                        >
-                          <Linkedin className="w-5 h-5 text-white hover:text-blue-400" />
-                        </a>
-                      )}
-                    </div>
+                  </div>
+                  <div className="flex items-center gap-3 mt-4 flex-wrap">
+                    {project.projectLink && (
+                      <a
+                        href={project.projectLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-white bg-blue-500 hover:bg-blue-600 px-2 py-1 rounded"
+                      >
+                        View Project
+                      </a>
+                    )}
+                    {project.githubLink && (
+                      <a
+                        href={project.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="GitHub"
+                      >
+                        <Github className="w-5 h-5 text-white hover:text-blue-400" />
+                      </a>
+                    )}
+                    {project.linkedinLink && (
+                      <a
+                        href={project.linkedinLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="LinkedIn"
+                      >
+                        <Linkedin className="w-5 h-5 text-white hover:text-blue-400" />
+                      </a>
+                    )}
                   </div>
                 </div>
               ))}
@@ -123,22 +120,15 @@ export const AchievementsSection = () => {
           <div className="card">
             <h3 className="text-2xl font-bold mb-6">Notable Achievements</h3>
             <div className="space-y-6">
-              {/* {achievements.map((cert) => (
-                <div key={cert.name} className="p-6 glass rounded-lg">
-                  <h4 className="font-bold mb-2 text-blue-300">{cert.name}</h4>
-                  <p className="text-sm text-gray-300">{cert.description}</p>
-                </div>
-              ))} */}
               {achievements.map((cert) => (
-                <div key={cert.name} className="p-6 glass rounded-lg">
+                <div key={cert.name.trim()} className="p-6 glass rounded-lg break-words">
                   <div className="flex justify-between items-start">
-                    <h4 className="font-bold text-blue-300">{cert.name}</h4>
+                    <h4 className="font-bold text-blue-300">{cert.name.trim()}</h4>
                     <span className="text-xs text-gray-400">{cert.date}</span>
                   </div>
                   <p className="text-sm text-gray-300 mt-1">{cert.description}</p>
                 </div>
               ))}
-
             </div>
           </div>
 

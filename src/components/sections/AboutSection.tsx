@@ -1,37 +1,7 @@
 import { FileText, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-// const skillCategories = {
-//   'Web Development': [
-//     'HTML5',
-//     'CSS3',
-//     'JavaScript',
-//     'React.js',
-//     'Tailwind CSS',
-//     'Supabase',
-//   ],
-//   'Security': [
-//     'Cybersecurity Fundamentals',
-//     'Security Architecture',
-//     'OAuth/OIDC',
-//   ],
-//   'Cloud & DevOps': [
-//     'Git & GitHub',
-//     'CI/CD Pipelines',
-//     'Infrastructure as Code'
-//   ],
-//   'Backend': [
-//     'Python',
-//     'Java',
-//     'API Development',
-//     'System Design'
-//   ],
-//   'Digital Marketing': [
-//     'SEO',
-//     'Social Media Management',
-//     'Email Marketing'
-//   ]
-// };
+
 const skillCategories = {
   'Cyber Security': [
     'Cybersecurity Fundamentals',
@@ -67,23 +37,7 @@ const skillCategories = {
   ]
 };
 
-// const certifications = [
-//   {
-//     name: "Google UI/UX Design Professional Certificate",
-//     issuer: "Google",
-//     year: "2024"
-//   },
-//   {
-//     name: "Google Digital Marketing & E-Commerce Professional Certificate",
-//     issuer: "Google",
-//     year: "2024"
-//   },
-//   {
-//     name: "Google Cybersecurity Professional Certificate",
-//     issuer: "Google",
-//     year: "2024"
-//   } 
-// ];
+
 const certifications = [
 
   {
