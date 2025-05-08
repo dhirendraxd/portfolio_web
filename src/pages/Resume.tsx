@@ -14,13 +14,13 @@ const Resume = () => {
           <div className="flex justify-between items-center mb-8">
             <h1 className="text-4xl font-bold text-white">Resume</h1>
             <div className="flex gap-4">
-              <button onClick={() => window.open('/resume.pdf', '_blank')} className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400">
+                <button onClick={() => window.open('/dhirencv.pdf', '_blank', 'noopener,noreferrer')} className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400">
                 <FileText className="mr-2" size={20} />
                 View Full CV
-              </button>
+                </button>
               <a href="/resume.pdf" download="Dhirendra_Singh_Dhami_Resume.pdf" className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400">
                 <Download className="mr-2" size={20} />
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
