@@ -32,8 +32,7 @@ const skillCategories = {
     'SEO',
     'Social Media Management',
     'Email Marketing',
-    'Google Analytics',
-    'Content Marketing'
+    'Google Analytics'
   ]
 };
 
@@ -58,12 +57,6 @@ const certifications = [
   {
     name: "Google Cybersecurity Professional Certificate",
     issuer: "Google",
-    year: "2024"
-  },
-
-  {
-    name: "NFRS for SMEs Training",
-    issuer: "Merojob",
     year: "2024"
   }
 ];
