@@ -1,7 +1,7 @@
 {
     "headers": [
         {
-            "source": "/(.*)",
+            "source": "/.*\\.(js|css|svg|woff2|jpg|png|webp)",
             "headers": [
                 {
                     "key": "Strict-Transport-Security",
