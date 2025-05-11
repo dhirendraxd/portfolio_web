@@ -35,3 +35,5 @@
         }
     ]
 }
+
+// file for vercel deployment making sure to add security headers and other security measures.
