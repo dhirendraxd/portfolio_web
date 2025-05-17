@@ -40,14 +40,14 @@ const Resume = () => {
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Experience</h2>
               <div className="space-y-4 text-gray-300">
 
-                <div>
+                {/* <div>
                   <h3 className="text-xl font-semibold">Social Media Manager</h3>
                   <p className="text-gray-400">Robotics Association of Nepal – Yantra 10.0 • Apr 2025 – Present</p>
                   <ul className="list-disc list-inside mt-2 space-y-1">
                     <li>Handling social media content for Yantra 10.0, Nepal’s biggest tech festival.</li>
                     <li>Designing posts, managing engagement, and contributing to community growth.</li>
                   </ul>
-                </div>
+                </div> */}
 
                 <div>
                   <h3 className="text-xl font-semibold">Campus Representative</h3>
