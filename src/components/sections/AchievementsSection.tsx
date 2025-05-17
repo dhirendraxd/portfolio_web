@@ -37,11 +37,7 @@ const hackathons: Achievement[] = [
 ];
 
 const achievements: Achievement[] = [
-  {
-    name: "Social Media Manager - Yantra 10.0 by Robotics Association of Nepal",
-    description: "Managing and creating engaging social media content for Yantra 10.0, Nepal’s largest robotics festival hosted by RAN.",
-    date: "April 2025 – Present",
-  },
+  
   {
     name: "AWS Cloud Club College Representative",
     description: "Selected as a CR for AWS Cloud Club Nepal to foster cloud learning and community growth.",
