@@ -14,10 +14,10 @@ const Resume = () => {
           <div className="flex justify-between items-center mb-8">
             <h1 className="text-4xl font-bold text-white">Resume</h1>
             <div className="flex gap-4">
-                <button onClick={() => window.open('/dhirencv.pdf', '_blank', 'noopener,noreferrer')} className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400">
+              <button onClick={() => window.open('/dhirencv.pdf', '_blank', 'noopener,noreferrer')} className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400">
                 <FileText className="mr-2" size={20} />
                 View Full CV
-                </button>
+              </button>
               <a href="/resume.pdf" download="Dhirendra_Singh_Dhami_Resume.pdf" className="inline-flex items-center px-4 py-2 rounded-lg glass hover:text-blue-400">
                 <Download className="mr-2" size={20} />
                 Download Resume
@@ -39,16 +39,6 @@ const Resume = () => {
             <section className="card">
               <h2 className="text-2xl font-bold mb-4 text-blue-300">Experience</h2>
               <div className="space-y-4 text-gray-300">
-
-                {/* <div>
-                  <h3 className="text-xl font-semibold">Social Media Manager</h3>
-                  <p className="text-gray-400">Robotics Association of Nepal – Yantra 10.0 • Apr 2025 – Present</p>
-                  <ul className="list-disc list-inside mt-2 space-y-1">
-                    <li>Handling social media content for Yantra 10.0, Nepal’s biggest tech festival.</li>
-                    <li>Designing posts, managing engagement, and contributing to community growth.</li>
-                  </ul>
-                </div> */}
-
                 <div>
                   <h3 className="text-xl font-semibold">Campus Representative</h3>
                   <p className="text-gray-400">AWS Cloud Club Nepal • Mar 2025 – Present</p>
@@ -81,10 +71,8 @@ const Resume = () => {
                     <li>Assisted in logistics and guest experience for the independently organized TEDx event.</li>
                   </ul>
                 </div>
-
               </div>
             </section>
-
 
             {/* Projects */}
             <section className="card">

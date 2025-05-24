@@ -37,7 +37,6 @@ const hackathons: Achievement[] = [
 ];
 
 const achievements: Achievement[] = [
-  
   {
     name: "AWS Cloud Club College Representative",
     description: "Selected as a CR for AWS Cloud Club Nepal to foster cloud learning and community growth.",
